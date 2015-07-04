@@ -1,0 +1,284 @@
+.component-panel-content{
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	z-index: 2000;
+	width: 100%;
+	background-color: white;
+	height: 15.5em;
+	overflow-y: auto;
+	text-align: center;
+}
+
+.component-panel-item{
+	width: 90%;
+	margin:auto;
+	border-width:0 0 1px 0;
+	border-bottom-color: #DFDFDF;
+	border-bottom-style: solid;
+	background-color: white;
+	padding: 0.5em;
+	text-wrap:unrestricted;
+}
+.component-panel-item:ACTIVE {
+	background-color: #DFDFDF;
+}
+.component-panel-btn{
+	background-color: black;
+	height:3em;
+	line-height:3em;
+	color: white;
+	text-shadow:none;
+	font-weight: bold;
+}
+
+.component-panel-btn-left{
+	float:left;
+	padding-left:1.5em;
+	width: 20%;
+	text-align: left;
+}
+
+.component-panel-btn-right{
+	float:right;
+	padding-right:1.5em;
+	width: 20%;
+	text-align: right;
+}
+
+.button-ui{
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	border: 1px #DEDEDE solid;
+	color:white;
+	padding: 0.5em 0 0.5em 0;
+	background-color: red;
+}
+.component-messagebox-win{
+	width:80.3%;
+	position:fixed;
+	top:40%;
+	margin-top:-4.15em;
+	left:50%;
+	margin-left:-40.15%;
+	background-color:white;
+	border-radius:5px;
+	z-index:1000;
+}
+.component-messagebox-title{
+	font-size:1rem;
+	width:100%;
+	text-align:center;
+	color:#000;
+	font-family:Hiragino Sans GB W3;
+}
+.component-messagebox-msg{
+	padding-top:1.5em;
+	padding-bottom:1.5em;
+	padding-left:0.3em;
+	padding-right:0.3em;
+	width:95%;
+	vertical-align:middle;
+	margin-top:0.375em;
+	font-size:0.875rem;
+	color:#353535;
+	font-family:'Helvetica';
+	text-align:center;
+	font-weight:bold;
+	word-wrap:break-word;
+	word-break:break-all;
+}
+.component-messagebox-btnContainer{
+	border-top :1px solid #aaa;
+	display:-webkit-box;
+	-webkit-flow:row;	
+}
+.component-messagebox-btn{
+	text-align:center;
+	color:#64ADFB;
+	height:2.8em;
+	line-height:2.8em;
+	font-size:1rem;
+	-webkit-box-flex:1;
+	font-family: "Hiragino Sans GB W3";
+}
+.component-messagebox-btn:nth-child(n+2){
+	border-left: 1px solid #aaa;
+}
+
+.component-messagebox-btn:HOVER{
+	background-color: #ccc;
+}
+
+
+
+/* .component-messagebox-btn{ */
+/* 	width:39%; */
+/* 	height:2.25em; */
+/* 	line-height:2.25em; */
+/* 	margin-top:0px; */
+/* 	font-size:2.3em; */
+/* 	color:#fff; */
+/* 	font-family:'microsoft yahei'; */
+/* 	text-align:center; */
+/* 	background-color:#4dd0c8; */
+/* 	border-radius:8px; */
+/* 	margin:0 auto; */
+/* 	font-weight:bold; */
+/* } */
+.component-messagebox-btns{
+	width:28%;
+	height:2.25em;
+	line-height:2.25em;
+	margin-top:0px;
+	font-size:2.3em;
+	color:#fff;
+	font-family:'microsoft yahei';
+	text-align:center;
+	background-color:#4dd0c8;
+	border-radius:0.5em;
+	margin-left:14.6%;
+	font-weight:bold;
+	float:left;
+
+}
+
+.component-validateCode-btn{
+	width:32%;
+	height:2rem;
+	line-height:2rem;
+/* 	margin-top:0.4em; */
+	
+	margin-right:8%;
+	float:right;
+	font-size:2.2em;
+	color:#fff;
+	font-family:'microsoft yahei';
+	text-align:center;
+	background-color:#4dd0c8;
+	border-radius:0.25em;
+}
+.component-page-container{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	display: none;
+}
+
+.component-select-table{
+	font-family:"Hiragino Sans GB";
+	font-size: 1.5rem;
+	border-collapse:collapse;
+	background-color: #f7f7f7;
+	margin-bottom: 1.875rem;
+	width: 100%;
+}
+
+
+.component-select-table img {
+	margin-left: 1.875rem;
+}
+
+.component-select-table tr td{
+	height: 3.63rem;
+	border-left:0;
+	border-bottom:1px solid #cccccc;
+	background-color: #ffffff;
+	border-bottom:1px solid #cccccc;
+}
+.component-select-table tr td span{
+	margin-left: 1.875rem;
+	font-size:0.875rem;
+}
+
+.component-select-containt{
+	width:100%;
+	height:6rem;
+	background-color:#4CD1C7;
+	text-align:center;
+	line-height:6rem;
+	font-size:2rem;
+	color:white;
+	font-family:"Hiragino Sans GB";
+	font-weight:bold;
+	position:fixed;
+	top:0;
+	left:0;
+	overflow:hidden; 
+}
+
+.component-select-containt img {
+	height: 36%;
+	left: 3rem;
+	position: absolute;
+	top: 32%;
+}
+
+
+.component-pagenum{
+	width:22rem;
+	height:2rem;
+	margin:0 auto;
+	font-size:1rem;
+	color:#333;
+	font-family:"Helvetica";
+	padding-top:1rem;
+}
+.component-pagenum span{
+	float:left;
+	margin-right:0.625rem;
+	cursor:pointer;
+}
+.component-pagenum-show{
+	display:block;
+	width:1.125rem;
+	height:1.125rem;
+	line-height:1.125rem;
+	border-radius:0.5rem;
+	background-color:#4dd0c8;
+	text-align:center;
+	font-size:0.875rem;
+	color:#fff;
+	font-family:"Helvetica";
+}
+
+.component-MultipleSelect-item_left1{
+	float: left;
+}
+
+.component-MultipleSelect-item_right1{
+	float: right;
+	margin-right: 1.875em; 
+	margin-top: 0.8em;
+	display: none;
+}
+.component-MultipleSelect-btm_btn1{
+	width: 35%;
+	height: 100%;
+	color: #FFFFFF;
+	background-color: #4CD1C7;
+	font-size: 1rem;
+	border-radius: 0.5rem;
+	margin: 0 auto;
+	height: 2rem;
+	margin-top: 3.375rem;
+	text-align: center;
+	line-height: 2rem;
+}
+.component-MultipleSelect-ad_manage_item1{
+	color: #9A9A9A;
+	font-size: 1rem;
+	list-style-type:none;
+}
+.component-MultipleSelect-ad_manage_item1 li{
+	border-bottom:1px solid #DEDEDE;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	padding-left: 8.75%;
+}
+.component-MultipleSelect-active_item{
+	background-color: #F5F5F5;
+}

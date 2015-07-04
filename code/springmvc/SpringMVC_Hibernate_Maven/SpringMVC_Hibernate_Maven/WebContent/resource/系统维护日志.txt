@@ -1,0 +1,20 @@
+2015-06-05		创建项目，该项目为Maven项目
+	导入jar
+	
+		cxf-2.6.15.jar							cxf  webservice
+			依赖于neethi-3.0.3.jar
+		poi-3.7.jar
+		poi-ooxml-3.7.jar
+		poi-ooxml-schemas-3.7.jar				excel文件处理
+		
+		commons-fileupload-1.2.1.jar
+		commons-io-2.0.1.jar					文件上传
+		
+		jettison-1.1.jar						json
+		gson-2.2.4.jar
+2015-06-12		增加了文件上传进度条的事例，还需完善上传过程中出现问题的解决方式
+
+2015-06-16		现在正测试事务  --完成
+2015-06-19		解决了事务在junit中测试时起作用了，在前台请求事务不起作用的问题
+2015-06-30		增加pdfbox-1.8.9.jar
+				增加pdf转jpg问题    效率问题有待提高

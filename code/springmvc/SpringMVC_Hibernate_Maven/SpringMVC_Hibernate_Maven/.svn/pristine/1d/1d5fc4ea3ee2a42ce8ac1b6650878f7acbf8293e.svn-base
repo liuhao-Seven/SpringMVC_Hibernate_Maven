@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta content="telephone=no" name="format-detection" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=2.0,user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="x-rim-auto-match" content="none">
+<title>HTML5测试</title>
+<style type="text/css">
+.div1{
+border: 1px solid yellow;
+text-align: center;
+}
+
+.div2{
+height: 100px;
+}
+</style>
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/component.js"></script>
+<link href="css/component.css">
+
+<!-- 禁止非微信浏览器打开该页面 -->
+<script type="text/javascript">
+		//方案一:通过OAuth2.0鉴权。 详情见  http://mp.weixin.qq.com/wiki/17/c0f37d5704f0b64713d5d2c37b468d75.html
+	
+
+
+//     对浏览器的UserAgent进行正则匹配，不含有微信独有标识的则为其他浏览器
+//     var useragent = navigator.userAgent;
+//     if (useragent.match(/MicroMessenger/i) != 'MicroMessenger') {
+//         这里警告框会阻塞当前页面继续加载
+//         alert('已禁止本次访问：您必须使用微信内置浏览器访问本页面！');
+//         以下代码是用javascript强行关闭当前页面
+//         var opened = window.open('about:blank', '_self');
+//         opened.opener = null;
+//         opened.close();
+    }
+</script>
+
+</head>
+<body>
+<div class="div1">
+	<a href="view/fileupload2.jsp">fileupload2</a>
+	<hr/>
+	<a href="view/fileupload3.jsp">fileupload3</a>
+	<hr/>
+	<a href="view/fileupload4.jsp">fileupload4</a>
+	<hr/>
+	<a href="exportExcel.do">exportExcel</a>
+	<hr/>
+	<a href="exportPdf.do">exportPdf</a>
+	<hr/>
+	<a href="exportPdf2.do">exportPdf2</a>
+	<hr/>
+	<a href="file:///E:/ccc.pdf">pdf</a>
+	<hr/>
+	<a href="pdf/ccc.pdf">pdf2</a>
+	<hr/>
+	<a href="pdfjs/web/viewer.html">pdf js</a>
+	<hr/>
+</div>
+<div class="div1 div2">
+	<a href="tel:10010">打给10010</a>
+</div>
+</body>
+</html>

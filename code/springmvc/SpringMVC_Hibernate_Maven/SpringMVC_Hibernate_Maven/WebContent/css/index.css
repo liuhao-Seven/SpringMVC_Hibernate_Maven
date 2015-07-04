@@ -1,0 +1,254 @@
+.top img{
+	width: 30%;
+	float: left;
+}
+
+body{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#jihua{
+	float: right;
+}
+
+.top h2{
+    font-family: "微软雅黑";
+	color: #353535;
+}
+
+.top h2:nth-child(2){
+	float: left;
+	margin-left: 5%;
+	
+}
+
+.top {
+	height: 11.5rem;
+}
+
+.center{
+	background-color: #4594BE;
+	height: 7rem;
+	border-radius: 0.5rem;
+	border: 0.2rem solid #A7CCE0;
+	vertical-align:middle;
+	margin-bottom: 1.5rem;
+	margin-left: 0.2rem;
+	margin-right: 0.2rem;
+}
+
+.left{
+	float: left;
+	border: 0.2rem solid white;
+	border-radius: 4rem;
+	height: 4rem;
+	width: 4rem;
+	color: white;
+	font-weight: 1000;
+	margin-top: 1rem;
+	font-family: "黑体";
+	margin-left: 1rem;
+}
+
+.right{
+	float: left;
+	margin-left: 1.5rem;
+	margin-top: 2.5rem;
+	color: white;
+}
+
+.right a:link{
+	color: white;
+}
+.right a:visited{
+	color: white;
+}
+
+.price{
+	float: left;
+	color: white;
+	margin-top: 2.2rem;
+	font-weight: 800;
+}
+
+.bottom{
+	background-image: url(../images/2.png);
+	background-size: 100%;
+	height: 9rem;
+	padding: 0;
+	margin: 0;
+}
+
+.bottom .right{
+	margin-top: 1.4rem;
+	line-height: 2rem;
+
+}
+
+.bottom .center{
+	border: 0;
+	background: none;
+}
+.item h1{
+	font-weight: 1000;
+	color: #718900;
+	border: 0.2rem solid #718900;
+	float: left;
+	height: 3.2rem;
+	width: 4rem;
+	padding-top: 0.8rem;
+	border-radius: 4rem;
+	position: relative;
+}
+
+.item1{
+	border: 0.2rem solid #718900;
+	height: 2.8rem;
+	color: #718900;
+	float: left;
+	padding-top: 1.2rem;
+	border-left: 0;
+	border-bottom-right-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	width: 70%;
+	font-weight: 700;
+	
+}
+.item1 img{
+	width: 4%;
+	float: right;
+	margin-right: 2%;
+	margin-top: 0.2rem;
+}
+
+.item{
+	width: 90%;
+	height: 7rem;
+	float: left;
+	padding-left: 10%;
+	background-color: #F8F8F8;
+
+}
+.detail{
+	border: 0.2rem solid #A7CCE0;
+	border-top: 0;
+	margin-left:0.7% ;
+	margin-right: 0.45%;
+	border-bottom-left-radius: 0.7rem;
+	border-bottom-right-radius: 0.7rem;
+	margin-bottom: 2.5rem;
+}
+
+.item1 a:link{
+	color:#718900 ;
+}
+
+.item1 a:visited{
+	color:#718900 ;
+}
+
+#dialog{
+	background: #555555;
+	opacity: 0.5;
+	width: 100%;
+	height: 100rem;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	
+	
+}
+
+#dialogcontent{
+	display: none;
+	background: url(../images/4.png) no-repeat;
+	background-size:100% ;
+	z-index: 101;
+	height: 50rem;
+	position: fixed;
+	width: 80%;
+	top: 12rem;
+	margin-left: 2rem;
+	
+}
+#cancel{
+	width: 10%;
+	position: relative;
+	left: 86%;
+	top: 1rem;
+}
+
+#dialogtittle img{
+	width: 10%;
+}
+#dialogtittle h2 span{
+	border-bottom: 1px solid;
+	color: #353535;
+}
+#dialogtittle h2 span span{
+	color: #718900;
+}
+
+#dialogdetail{
+	width: 80%;
+	margin-left: 10%;
+	color: #353535;
+	line-height: 2.2rem;
+}
+
+#aaa{
+	font-size: 2rem;
+}
+
+
+
+
+@media screen  and (max-width:479px) {
+    html {
+        font-size: 10px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:639px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:719px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:720px) and (max-width:749px) {
+    html {
+        font-size: 22.5px;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:799px) {
+    html {
+        font-size: 23.5px;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:959px) {
+    html {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:960px) and (max-width:1079px) {
+    html {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    html {
+        font-size: 32px;
+    }
+}

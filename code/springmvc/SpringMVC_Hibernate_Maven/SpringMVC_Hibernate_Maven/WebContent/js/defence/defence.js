@@ -1,0 +1,14 @@
+$(function(){
+	$(".dail").click(function(){
+		$(".dialogbackground").show();
+		$("#dialog").fadeIn();
+	})
+	$("#cancel").click(function(){
+		$(".dialogbackground").hide();
+		$("#dialog").fadeOut();
+	})
+	$("#ok").click(function(){
+		$(".dialogbackground").hide();
+		$("#dialog").fadeOut();
+	})
+})
